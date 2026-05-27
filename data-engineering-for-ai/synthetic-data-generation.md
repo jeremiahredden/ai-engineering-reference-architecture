@@ -480,7 +480,7 @@ This is synthetic-data-generation:
 - Generator: large model.
 - Output: training data for smaller model.
 
-Cross-link to [model-lifecycle/distillation-operations.md](../model-lifecycle/distillation-operations.md) *(coming)*.
+Cross-link to [model-lifecycle/distillation-operations.md](../model-lifecycle/distillation-operations.md).
 
 ### 6.9 The "we used synthetic; fine-tune failed" lessons
 
@@ -915,7 +915,7 @@ Lesson: synthetic data ages too.
 **Elsewhere in this repo.**
 - [eval-engineering/golden-set-design.md](../eval-engineering/golden-set-design.md) — eval design.
 - [model-lifecycle/fine-tuning-operations.md](../model-lifecycle/fine-tuning-operations.md) — fine-tune that may use synthetic.
-- [model-lifecycle/distillation-operations.md](../model-lifecycle/distillation-operations.md) *(coming)* — distillation as synthetic data.
+- [model-lifecycle/distillation-operations.md](../model-lifecycle/distillation-operations.md) — distillation as synthetic data.
 
 **Sibling repos.**
 - [ai-architecture-reference-architecture / context-and-prompt-architecture / few-shot-vs-fine-tune-vs-system-prompt.md](https://github.com/jeremiahredden/ai-architecture-reference-architecture/blob/main/context-and-prompt-architecture/few-shot-vs-fine-tune-vs-system-prompt.md) — synthetic for few-shot.

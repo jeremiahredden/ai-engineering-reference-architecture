@@ -209,7 +209,7 @@ When a prompt regression is identified post-release, rollback is unclear: rollin
 
 ### 6.4 The corrective
 
-Per [prompt-versioning.md](./prompt-versioning.md) and [cicd-and-eval-gates/prompt-version-pinning.md](../cicd-and-eval-gates/prompt-version-pinning.md) *(coming)*:
+Per [prompt-versioning.md](./prompt-versioning.md) and [cicd-and-eval-gates/prompt-version-pinning.md](../cicd-and-eval-gates/prompt-version-pinning.md):
 
 - Application code pins prompt versions explicitly: `prompt_store.get("care-coordinator-system", version="v23")`.
 - The release artefact captures all prompt version pins.
@@ -573,7 +573,7 @@ Maintained per section 10.7. Surfaces cross-feature trends; platform team priori
 - [eval-engineering/eval-gate-architecture.md](../eval-engineering/eval-gate-architecture.md) — gate that prevents #2.
 - [agent-engineering/agent-vs-workflow-decision.md](../agent-engineering/agent-vs-workflow-decision.md) — corrective for kitchen-sink agents (#3).
 - [agent-engineering/agent-anti-patterns.md](../agent-engineering/agent-anti-patterns.md) — analogous catalogue for agent engineering.
-- [cicd-and-eval-gates/prompt-version-pinning.md](../cicd-and-eval-gates/prompt-version-pinning.md) *(coming)* — release-side pinning depth.
+- [cicd-and-eval-gates/prompt-version-pinning.md](../cicd-and-eval-gates/prompt-version-pinning.md) — release-side pinning depth.
 - [cost-and-finops/cost-attribution.md](../cost-and-finops/cost-attribution.md) — per-prompt cost visibility for change discipline.
 - Sibling repo: [ai-security-reference-architecture](https://github.com/jeremiahredden/ai-security-reference-architecture) — corrective for anti-pattern #7 (prompt-injection-naive).
 - "An anti-pattern catalogue is a teaching tool" — the per-doc anti-pattern sections plus this consolidated catalogue work together; same precedent as agent-anti-patterns.md.

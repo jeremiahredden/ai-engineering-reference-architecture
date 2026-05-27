@@ -1,6 +1,6 @@
 # Labeling and Annotation
 
-> **Audience.** Engineers building labeling pipelines for AI workloads. Tech leads whose vendor-labeled data quality is mysteriously dropping. Anyone who has heard "we'll just hire a labeling vendor" and is realizing that's not the discipline. **Scope.** The *engineering* practice of labeling workflow design: rubric, guidelines, inter-annotator agreement (IAA), calibration, vendor-vs-internal-vs-hybrid, quality-control gates, failure modes (rubric drift, guideline ambiguity, annotator fatigue, gaming). Not the data quality discipline overall (see [data-quality-for-ai.md](./data-quality-for-ai.md), companion). Not the synthetic data generation alternative (see [synthetic-data-generation.md](./synthetic-data-generation.md) *(coming)*). **Worked client.** Meridian Health.
+> **Audience.** Engineers building labeling pipelines for AI workloads. Tech leads whose vendor-labeled data quality is mysteriously dropping. Anyone who has heard "we'll just hire a labeling vendor" and is realizing that's not the discipline. **Scope.** The *engineering* practice of labeling workflow design: rubric, guidelines, inter-annotator agreement (IAA), calibration, vendor-vs-internal-vs-hybrid, quality-control gates, failure modes (rubric drift, guideline ambiguity, annotator fatigue, gaming). Not the data quality discipline overall (see [data-quality-for-ai.md](./data-quality-for-ai.md), companion). Not the synthetic data generation alternative (see [synthetic-data-generation.md](./synthetic-data-generation.md)). **Worked client.** Meridian Health.
 
 ---
 
@@ -978,8 +978,8 @@ Hybrid approach:
 **In this folder.**
 - [dataset-versioning.md](./dataset-versioning.md) — rubric versioning.
 - [data-quality-for-ai.md](./data-quality-for-ai.md) — quality metrics.
-- [synthetic-data-generation.md](./synthetic-data-generation.md) *(coming)* — alternative to labeling.
-- [eval-data-contamination-prevention.md](./eval-data-contamination-prevention.md) *(coming)* — labeling for eval.
+- [synthetic-data-generation.md](./synthetic-data-generation.md) — alternative to labeling.
+- [eval-data-contamination-prevention.md](./eval-data-contamination-prevention.md) — labeling for eval.
 
 **Elsewhere in this repo.**
 - [eval-engineering/golden-set-design.md](../eval-engineering/golden-set-design.md) — gold-standard for calibration.

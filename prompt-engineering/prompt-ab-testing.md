@@ -771,7 +771,7 @@ A team that completes the sequence runs productive A/B tests that close cleanly.
 - [agent-engineering/agent-observability.md](../agent-engineering/agent-observability.md) — variant label in traces.
 - [observability-and-telemetry/quality-drift-detection.md](../observability-and-telemetry/quality-drift-detection.md) — continuous quality monitoring overlaps with online eval.
 - [cost-and-finops/cost-attribution.md](../cost-and-finops/cost-attribution.md) — variant in cost records; per-variant cost analysis.
-- [cicd-and-eval-gates/canary-rollouts.md](../cicd-and-eval-gates/canary-rollouts.md) *(coming)* — canary as adjacent pattern.
+- [cicd-and-eval-gates/canary-rollouts.md](../cicd-and-eval-gates/canary-rollouts.md) — canary as adjacent pattern.
 - Sibling repo: [ai-architecture-reference-architecture/reference-patterns/](https://github.com/jeremiahredden/ai-architecture-reference-architecture) — architectural patterns that experiments validate.
 - LaunchDarkly, Statsig, Eppo — experimentation platforms.
 - "Trustworthy Online Controlled Experiments" (Kohavi, Tang, Xu) — comprehensive reference on experimentation.

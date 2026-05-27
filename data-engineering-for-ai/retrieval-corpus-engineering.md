@@ -211,7 +211,7 @@ When upstream schema changes:
 - Alert.
 - Updated connector deployed.
 
-Cross-link to [data-contracts-for-ai.md](./data-contracts-for-ai.md) *(coming)*.
+Cross-link to [data-contracts-for-ai.md](./data-contracts-for-ai.md).
 
 ### 3.6 The connector cataloging
 
@@ -989,7 +989,7 @@ Total: modest; high value.
 - [dataset-versioning.md](./dataset-versioning.md) — corpus versioning.
 - [data-quality-for-ai.md](./data-quality-for-ai.md) — corpus quality.
 - [labeling-and-annotation.md](./labeling-and-annotation.md) — labeled corpus data.
-- [data-contracts-for-ai.md](./data-contracts-for-ai.md) *(coming)* — upstream data contracts.
+- [data-contracts-for-ai.md](./data-contracts-for-ai.md) — upstream data contracts.
 
 **Elsewhere in this repo.**
 - [rag-engineering/retrieval-engineering.md](../rag-engineering/retrieval-engineering.md) — retrieval depends on corpus.

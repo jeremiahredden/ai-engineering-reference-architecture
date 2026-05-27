@@ -1,6 +1,6 @@
 # Cost Dashboards and Alerts
 
-> **Audience.** Engineers building cost observability for AI workloads. SREs on-call for cost-spike pages. FinOps partners who use the dashboards in monthly reviews. Anyone whose answer to "how much did Care Coordinator cost yesterday" is "let me run a query." **Scope.** The *engineering* practice of building cost dashboards that support action, alerts that page the right people on the right signal, and the runbook integration that converts an alert into a resolved incident. Per-feature, per-tenant, per-user, per-model breakdowns; burn-rate vs spike-vs-trend signal design; alert thresholds; integration with the broader observability stack. Not the per-call attribution that feeds the dashboards (see [cost-attribution.md](./cost-attribution.md)). Not the circuit-breaker that fires on threshold (see [cost-budget-circuit-breaker.md](./cost-budget-circuit-breaker.md)). Not the runbook itself (see [cost-incident-runbook.md](./cost-incident-runbook.md) *(coming)*). **Worked client.** Meridian Health.
+> **Audience.** Engineers building cost observability for AI workloads. SREs on-call for cost-spike pages. FinOps partners who use the dashboards in monthly reviews. Anyone whose answer to "how much did Care Coordinator cost yesterday" is "let me run a query." **Scope.** The *engineering* practice of building cost dashboards that support action, alerts that page the right people on the right signal, and the runbook integration that converts an alert into a resolved incident. Per-feature, per-tenant, per-user, per-model breakdowns; burn-rate vs spike-vs-trend signal design; alert thresholds; integration with the broader observability stack. Not the per-call attribution that feeds the dashboards (see [cost-attribution.md](./cost-attribution.md)). Not the circuit-breaker that fires on threshold (see [cost-budget-circuit-breaker.md](./cost-budget-circuit-breaker.md)). Not the runbook itself (see [cost-incident-runbook.md](./cost-incident-runbook.md)). **Worked client.** Meridian Health.
 
 ---
 
@@ -752,8 +752,8 @@ Avoided cost (estimated): $80-150k/year in caught incidents.
 - [caching-for-cost.md](./caching-for-cost.md) *(companion)* — cache effectiveness surfaces in cost trends.
 - [batch-vs-realtime-cost.md](./batch-vs-realtime-cost.md) *(companion)* — batch usage tracked.
 - [cost-aware-rate-limiting.md](./cost-aware-rate-limiting.md) *(companion)* — rate-limit signals in dashboards.
-- [cost-incident-runbook.md](./cost-incident-runbook.md) *(coming)* — the runbook referenced by alerts.
-- [finops-process.md](./finops-process.md) *(coming)* — process that consumes the dashboards.
+- [cost-incident-runbook.md](./cost-incident-runbook.md) — the runbook referenced by alerts.
+- [finops-process.md](./finops-process.md) — process that consumes the dashboards.
 
 **Elsewhere in this repo.**
 - [observability-and-telemetry/alerting-and-paging-design.md](../observability-and-telemetry/alerting-and-paging-design.md) — general alert design patterns.

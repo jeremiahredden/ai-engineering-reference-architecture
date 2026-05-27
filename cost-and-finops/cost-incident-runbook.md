@@ -1,6 +1,6 @@
 # Cost Incident Runbook
 
-> **Audience.** SREs and engineering leads who get paged for cost spikes. Engineers triaging "our AI bill jumped 4x yesterday." On-call rotations whose runbook for cost incidents is currently a wiki page nobody updates. **Scope.** The *engineering* practice of responding to AI cost incidents: detection signals; triage workflow (feature / tenant / model / prompt-version / endpoint); mitigation actions (rate-limit, route-down-tier, kill switch); root-cause investigation; resolution and prevention. Not the cost-attribution telemetry (see [cost-attribution.md](./cost-attribution.md)). Not the alerting setup (see [cost-dashboards-and-alerts.md](./cost-dashboards-and-alerts.md)). Not the circuit-breaker primitive (see [cost-budget-circuit-breaker.md](./cost-budget-circuit-breaker.md)). Not the general reliability incident response (see [reliability-engineering/incident-response-for-ai.md](../reliability-engineering/incident-response-for-ai.md) *(coming)*). **Worked client.** Meridian Health.
+> **Audience.** SREs and engineering leads who get paged for cost spikes. Engineers triaging "our AI bill jumped 4x yesterday." On-call rotations whose runbook for cost incidents is currently a wiki page nobody updates. **Scope.** The *engineering* practice of responding to AI cost incidents: detection signals; triage workflow (feature / tenant / model / prompt-version / endpoint); mitigation actions (rate-limit, route-down-tier, kill switch); root-cause investigation; resolution and prevention. Not the cost-attribution telemetry (see [cost-attribution.md](./cost-attribution.md)). Not the alerting setup (see [cost-dashboards-and-alerts.md](./cost-dashboards-and-alerts.md)). Not the circuit-breaker primitive (see [cost-budget-circuit-breaker.md](./cost-budget-circuit-breaker.md)). Not the general reliability incident response (see [reliability-engineering/incident-response-for-ai.md](../reliability-engineering/incident-response-for-ai.md)). **Worked client.** Meridian Health.
 
 ---
 
@@ -834,7 +834,7 @@ The prevention worked: same kind of change, no incident.
 - [reliability-engineering/timeout-strategy.md](../reliability-engineering/timeout-strategy.md) — timeouts as cost-cap mechanism.
 - [reliability-engineering/retry-strategy.md](../reliability-engineering/retry-strategy.md) — retry policy affects cost incidents.
 - [reliability-engineering/circuit-breakers.md](../reliability-engineering/circuit-breakers.md) — circuit-breaker primitive used in cost mitigations.
-- [reliability-engineering/incident-response-for-ai.md](../reliability-engineering/incident-response-for-ai.md) *(coming)* — general AI incident response framework.
+- [reliability-engineering/incident-response-for-ai.md](../reliability-engineering/incident-response-for-ai.md) — general AI incident response framework.
 - [observability-and-telemetry/alerting-and-paging-design.md](../observability-and-telemetry/alerting-and-paging-design.md) — paging design.
 - [observability-and-telemetry/debugging-from-traces.md](../observability-and-telemetry/debugging-from-traces.md) — trace-based investigation.
 

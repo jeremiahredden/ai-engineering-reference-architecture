@@ -345,7 +345,7 @@ The fine-tune investment ($1,000–$10,000 typically) pays back in weeks to mont
 
 ### 6.3 The fine-tune investment
 
-Per [model-lifecycle/fine-tuning-operations.md](../model-lifecycle/fine-tuning-operations.md) *(coming)*:
+Per [model-lifecycle/fine-tuning-operations.md](../model-lifecycle/fine-tuning-operations.md):
 
 - Curate the training set (often the few-shot examples are the seed; need 50–500+ for fine-tune).
 - Run the fine-tune (provider-specific; varies in time and cost).
@@ -754,7 +754,7 @@ A team that completes the sequence has few-shot examples that earn their tokens,
 - [eval-engineering/golden-set-design.md](../eval-engineering/golden-set-design.md) — golden sets used to measure example contribution.
 - [cost-and-finops/cost-attribution.md](../cost-and-finops/cost-attribution.md) — per-call token cost includes example tokens; visible in attribution.
 - [cost-and-finops/tier-routing-for-cost.md](../cost-and-finops/tier-routing-for-cost.md) — per-tier few-shot decisions.
-- [model-lifecycle/fine-tuning-operations.md](../model-lifecycle/fine-tuning-operations.md) *(coming)* — fine-tune operational depth.
+- [model-lifecycle/fine-tuning-operations.md](../model-lifecycle/fine-tuning-operations.md) — fine-tune operational depth.
 - [observability-and-telemetry/llm-call-instrumentation.md](../observability-and-telemetry/llm-call-instrumentation.md) — per-call token attribution.
 - Sibling repo: [ai-architecture-reference-architecture/context-and-prompt-architecture](https://github.com/jeremiahredden/ai-architecture-reference-architecture) — architectural framing of context (planned).
 - Anthropic / OpenAI prompt-engineering documentation — provider-specific few-shot guidance.

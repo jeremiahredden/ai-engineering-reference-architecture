@@ -365,7 +365,7 @@ When feature breaker trips:
 - Alert fires; engineering team paged.
 - New deploys to the feature are blocked until investigation.
 
-Cross-link to [degraded-mode-design.md](./degraded-mode-design.md) *(coming)*.
+Cross-link to [degraded-mode-design.md](./degraded-mode-design.md).
 
 ### 5.4 The "quality regression detected by judge" signal
 
@@ -983,7 +983,7 @@ Continuous improvement; thresholds refined over time.
 - [timeout-strategy.md](./timeout-strategy.md) — timeouts that contribute to breaker signal; companion.
 - [retry-strategy.md](./retry-strategy.md) — retry policy that interacts with breaker (don't retry through open breaker); companion.
 - [fallback-patterns.md](./fallback-patterns.md) — fallback paths when breaker fires.
-- [degraded-mode-design.md](./degraded-mode-design.md) *(coming)* — degraded mode is the typical "breaker open" behavior.
+- [degraded-mode-design.md](./degraded-mode-design.md) — degraded mode is the typical "breaker open" behavior.
 
 **Elsewhere in this repo.**
 - [cost-and-finops/cost-budget-circuit-breaker.md](../cost-and-finops/cost-budget-circuit-breaker.md) — cost-as-circuit-breaker primitive.

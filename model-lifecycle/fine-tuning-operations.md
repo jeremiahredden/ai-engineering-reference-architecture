@@ -89,7 +89,7 @@ If approved:
 - Deploy via standard release process.
 - Canary / shadow / full rollout.
 
-Cross-link to [canary-and-shadow-rollout.md](./canary-and-shadow-rollout.md) *(coming)*.
+Cross-link to [canary-and-shadow-rollout.md](./canary-and-shadow-rollout.md).
 
 ### 2.6 Phase 6: Monitoring
 
@@ -555,7 +555,7 @@ Production:
 - Pinned to specific fine-tune version.
 - Updates via release.
 
-Cross-link to [model-promotion.md](./model-promotion.md) *(coming)*.
+Cross-link to [model-promotion.md](./model-promotion.md).
 
 ### 6.7 The roll-forward / roll-back
 
@@ -688,7 +688,7 @@ Treat as project:
 - Per-fine-tune sub-tasks.
 - Resource allocation.
 
-Cross-link to [model-deprecation-playbook.md](./model-deprecation-playbook.md) *(coming)*.
+Cross-link to [model-deprecation-playbook.md](./model-deprecation-playbook.md).
 
 ### 7.10 The pre-cascade strategic decision
 
@@ -1013,11 +1013,11 @@ Cost-benefit per workload.
 
 **In this folder.**
 - [model-registry.md](./model-registry.md) — fine-tune registry.
-- [model-promotion.md](./model-promotion.md) *(coming)* — deploy workflow.
-- [canary-and-shadow-rollout.md](./canary-and-shadow-rollout.md) *(coming)* — rollout.
-- [rollback-procedures.md](./rollback-procedures.md) *(coming)* — rollback.
-- [model-deprecation-playbook.md](./model-deprecation-playbook.md) *(coming)* — deprecation.
-- [distillation-operations.md](./distillation-operations.md) *(coming)* — distillation.
+- [model-promotion.md](./model-promotion.md) — deploy workflow.
+- [canary-and-shadow-rollout.md](./canary-and-shadow-rollout.md) — rollout.
+- [rollback-procedures.md](./rollback-procedures.md) — rollback.
+- [model-deprecation-playbook.md](./model-deprecation-playbook.md) — deprecation.
+- [distillation-operations.md](./distillation-operations.md) — distillation.
 
 **Elsewhere in this repo.**
 - [data-engineering-for-ai/dataset-versioning.md](../data-engineering-for-ai/dataset-versioning.md) — dataset versioning.

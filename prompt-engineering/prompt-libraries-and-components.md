@@ -58,7 +58,7 @@ Identical content paid for at input token rates × multiple prompts × call volu
 
 Componentisation doesn't directly reduce per-call cost (the assembled prompt still includes the component's tokens), but it reduces the cost of *maintaining* the prompts — engineering time on duplication is significant.
 
-(Prompt caching, per [caching-for-cost.md](../cost-and-finops/caching-for-cost.md) *(coming)*, does reduce per-call cost for stable shared content — a reason to extract common fragments specifically.)
+(Prompt caching, per [caching-for-cost.md](../cost-and-finops/caching-for-cost.md), does reduce per-call cost for stable shared content — a reason to extract common fragments specifically.)
 
 ### 2.5 The quality problem
 
@@ -259,7 +259,7 @@ For high-volume features, assembling the prompt on every call is wasteful. Cache
 - Value: the assembled prompt text.
 - TTL: hours (the cache flushes on prompt version updates; the version captures component versions).
 
-The cache reduces composition cost. For frontier-model prompt caching (per [caching-for-cost.md](../cost-and-finops/caching-for-cost.md) *(coming)*), the stable system-prompt portion (composed of stable components) is the natural cache prefix.
+The cache reduces composition cost. For frontier-model prompt caching (per [caching-for-cost.md](../cost-and-finops/caching-for-cost.md)), the stable system-prompt portion (composed of stable components) is the natural cache prefix.
 
 ---
 
@@ -811,9 +811,9 @@ A team that completes the sequence has prompts that compose from a library; upda
 - [prompt-anti-patterns.md](./prompt-anti-patterns.md) — duplication and inline-string anti-patterns.
 - [eval-engineering/eval-engineering-playbook.md](../eval-engineering/eval-engineering-playbook.md) — eval practice that covers component and prompt-level eval.
 - [eval-engineering/eval-gate-architecture.md](../eval-engineering/eval-gate-architecture.md) — gate that protects component and prompt promotions.
-- [cicd-and-eval-gates/prompt-version-pinning.md](../cicd-and-eval-gates/prompt-version-pinning.md) *(coming)* — release-side pinning of prompt and component versions.
+- [cicd-and-eval-gates/prompt-version-pinning.md](../cicd-and-eval-gates/prompt-version-pinning.md) — release-side pinning of prompt and component versions.
 - [agent-engineering/agent-observability.md](../agent-engineering/agent-observability.md) — trace metadata that includes composition.
 - [observability-and-telemetry/llm-call-instrumentation.md](../observability-and-telemetry/llm-call-instrumentation.md) — span attributes that capture prompt composition.
-- [cost-and-finops/caching-for-cost.md](../cost-and-finops/caching-for-cost.md) *(coming)* — prompt caching naturally aligns with stable shared components.
+- [cost-and-finops/caching-for-cost.md](../cost-and-finops/caching-for-cost.md) — prompt caching naturally aligns with stable shared components.
 - Jinja2, Handlebars, Mustache — common template engines adapted for prompts.
 - Software-engineering DRY principle — the broader discipline this practice applies.

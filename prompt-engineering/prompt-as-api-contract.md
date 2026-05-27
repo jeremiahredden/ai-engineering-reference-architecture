@@ -836,7 +836,7 @@ A team that completes the sequence has prompt changes that don't surprise consum
 - [prompt-anti-patterns.md](./prompt-anti-patterns.md) — including "prompt as text; change freely" and "no version pinning."
 - [eval-engineering/eval-engineering-playbook.md](../eval-engineering/eval-engineering-playbook.md) — eval contract elements.
 - [eval-engineering/eval-gate-architecture.md](../eval-engineering/eval-gate-architecture.md) — gate that protects against contract regressions.
-- [cicd-and-eval-gates/prompt-version-pinning.md](../cicd-and-eval-gates/prompt-version-pinning.md) *(coming)* — pinning enforces the contract surface.
+- [cicd-and-eval-gates/prompt-version-pinning.md](../cicd-and-eval-gates/prompt-version-pinning.md) — pinning enforces the contract surface.
 - [agent-engineering/agent-vs-workflow-decision.md](../agent-engineering/agent-vs-workflow-decision.md) — long prompt chains may indicate workflow vs chain.
 - [agent-engineering/agent-observability.md](../agent-engineering/agent-observability.md) — prompt-version metadata in traces.
 - "Consumer-Driven Contracts" (Robinson, 2006) — the API contract pattern this practice adapts.

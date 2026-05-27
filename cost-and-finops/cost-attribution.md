@@ -1,6 +1,6 @@
 # Cost Attribution
 
-> **Audience.** Engineers building the cost telemetry layer. Tech leads who need cost-by-feature, cost-by-tenant, cost-by-model dashboards to manage AI spend. Finance partners who need the chargeback model to work. **Scope.** The *engineering* practice of attributing every LLM (and every cost-bearing tool) call to its feature, tenant, user, model, prompt-version, and time — at request time, not after the fact via vendor invoices. The storage and aggregation pattern. The integration with observability. Reconciliation with provider invoices. Chargeback. Not the cost-incident response (see [cost-incident-runbook.md](./cost-incident-runbook.md) *(coming)*). Not the circuit-breaker primitive (see [cost-budget-circuit-breaker.md](./cost-budget-circuit-breaker.md)). **Worked client.** Meridian Health.
+> **Audience.** Engineers building the cost telemetry layer. Tech leads who need cost-by-feature, cost-by-tenant, cost-by-model dashboards to manage AI spend. Finance partners who need the chargeback model to work. **Scope.** The *engineering* practice of attributing every LLM (and every cost-bearing tool) call to its feature, tenant, user, model, prompt-version, and time — at request time, not after the fact via vendor invoices. The storage and aggregation pattern. The integration with observability. Reconciliation with provider invoices. Chargeback. Not the cost-incident response (see [cost-incident-runbook.md](./cost-incident-runbook.md)). Not the circuit-breaker primitive (see [cost-budget-circuit-breaker.md](./cost-budget-circuit-breaker.md)). **Worked client.** Meridian Health.
 
 ---
 
@@ -797,13 +797,13 @@ A team that completes the sequence has cost as a first-class engineering metric,
 
 - [cost-budget-circuit-breaker.md](./cost-budget-circuit-breaker.md) — the gateway-side breaker that consumes attribution.
 - [tier-routing-for-cost.md](./tier-routing-for-cost.md) — tier routing that's validated against the per-tier attribution.
-- [cost-dashboards-and-alerts.md](./cost-dashboards-and-alerts.md) *(coming)* — the dashboards and alerts that query attribution data.
-- [per-tenant-cost-control.md](./per-tenant-cost-control.md) *(coming)* — per-tenant caps and chargeback that depend on per-tenant attribution.
-- [caching-for-cost.md](./caching-for-cost.md) *(coming)* — caching whose hit rate is in attribution.
-- [batch-vs-realtime-cost.md](./batch-vs-realtime-cost.md) *(coming)* — batch-mode flagged in attribution.
-- [cost-aware-rate-limiting.md](./cost-aware-rate-limiting.md) *(coming)* — rate limiting that uses cost as the metric.
-- [cost-incident-runbook.md](./cost-incident-runbook.md) *(coming)* — incident response that queries attribution.
-- [finops-process.md](./finops-process.md) *(coming)* — the cross-functional process that consumes chargeback statements.
+- [cost-dashboards-and-alerts.md](./cost-dashboards-and-alerts.md) — the dashboards and alerts that query attribution data.
+- [per-tenant-cost-control.md](./per-tenant-cost-control.md) — per-tenant caps and chargeback that depend on per-tenant attribution.
+- [caching-for-cost.md](./caching-for-cost.md) — caching whose hit rate is in attribution.
+- [batch-vs-realtime-cost.md](./batch-vs-realtime-cost.md) — batch-mode flagged in attribution.
+- [cost-aware-rate-limiting.md](./cost-aware-rate-limiting.md) — rate limiting that uses cost as the metric.
+- [cost-incident-runbook.md](./cost-incident-runbook.md) — incident response that queries attribution.
+- [finops-process.md](./finops-process.md) — the cross-functional process that consumes chargeback statements.
 - [observability-and-telemetry/llm-call-instrumentation.md](../observability-and-telemetry/llm-call-instrumentation.md) — span shape for LLM calls; attributes align with attribution.
 - [observability-and-telemetry/agent-step-instrumentation.md](../observability-and-telemetry/agent-step-instrumentation.md) — agent spans that roll up cost.
 - [observability-and-telemetry/cost-dashboards.md](../observability-and-telemetry/cost-dashboards.md) — dashboard patterns.

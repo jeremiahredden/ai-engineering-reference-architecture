@@ -886,7 +886,7 @@ The retry strategy has a runbook entry:
 - [timeout-strategy.md](./timeout-strategy.md) — timeouts that trigger retries; companion.
 - [fallback-patterns.md](./fallback-patterns.md) — fallback when retries exhaust.
 - [circuit-breakers.md](./circuit-breakers.md) — circuit-breaker that pauses retries; companion.
-- [degraded-mode-design.md](./degraded-mode-design.md) *(coming)* — degraded mode after retry exhaustion.
+- [degraded-mode-design.md](./degraded-mode-design.md) — degraded mode after retry exhaustion.
 
 **Elsewhere in this repo.**
 - [agent-engineering/error-and-partial-failure.md](../agent-engineering/error-and-partial-failure.md) — agent partial-failure handling; per-step retry.

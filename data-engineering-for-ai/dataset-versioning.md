@@ -390,7 +390,7 @@ Per feature, a catalog of releases:
 - Per release: artifacts pinned.
 - Deployment history.
 
-Cross-link to [cicd-and-eval-gates/](../cicd-and-eval-gates/) *(coming)*.
+Cross-link to [cicd-and-eval-gates/](../cicd-and-eval-gates/).
 
 ### 5.8 The "we don't pin datasets" failure
 
@@ -929,10 +929,10 @@ Total: modest; high value.
 - [labeling-and-annotation.md](./labeling-and-annotation.md) — labeled data versioning (companion).
 - [data-quality-for-ai.md](./data-quality-for-ai.md) — quality of versioned data (companion).
 - [retrieval-corpus-engineering.md](./retrieval-corpus-engineering.md) — corpus versioning (companion).
-- [synthetic-data-generation.md](./synthetic-data-generation.md) *(coming)* — synthetic data versioning.
-- [eval-data-contamination-prevention.md](./eval-data-contamination-prevention.md) *(coming)* — versioning supports contamination prevention.
-- [training-eval-split-discipline.md](./training-eval-split-discipline.md) *(coming)* — splits are versioned.
-- [data-contracts-for-ai.md](./data-contracts-for-ai.md) *(coming)* — contracts version with data.
+- [synthetic-data-generation.md](./synthetic-data-generation.md) — synthetic data versioning.
+- [eval-data-contamination-prevention.md](./eval-data-contamination-prevention.md) — versioning supports contamination prevention.
+- [training-eval-split-discipline.md](./training-eval-split-discipline.md) — splits are versioned.
+- [data-contracts-for-ai.md](./data-contracts-for-ai.md) — contracts version with data.
 
 **Elsewhere in this repo.**
 - [eval-engineering/golden-set-design.md](../eval-engineering/golden-set-design.md) — eval data design.

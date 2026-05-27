@@ -1089,8 +1089,8 @@ Estimated avoided cost: $400-800k/year in uncapped tenant incidents + ongoing su
 - [caching-for-cost.md](./caching-for-cost.md) *(companion)* — caching reduces effective cost per call.
 - [cost-aware-rate-limiting.md](./cost-aware-rate-limiting.md) *(companion)* — rate-limit integration with per-tenant cost.
 - [batch-vs-realtime-cost.md](./batch-vs-realtime-cost.md) *(companion)* — batch usage per tenant.
-- [cost-incident-runbook.md](./cost-incident-runbook.md) *(coming)* — runbook for budget-exceeded incidents.
-- [finops-process.md](./finops-process.md) *(coming)* — chargeback integration with FinOps cadence.
+- [cost-incident-runbook.md](./cost-incident-runbook.md) — runbook for budget-exceeded incidents.
+- [finops-process.md](./finops-process.md) — chargeback integration with FinOps cadence.
 
 **Elsewhere in this repo.**
 - [observability-and-telemetry/cost-dashboards.md](../observability-and-telemetry/cost-dashboards.md) — broader cost observability that consumes per-tenant data.

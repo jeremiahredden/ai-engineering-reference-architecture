@@ -1,6 +1,6 @@
 # Data Quality for AI
 
-> **Audience.** Engineers whose AI model quality is mysteriously degrading and they suspect (correctly) that the data has shifted. Tech leads whose retrieval corpus has accumulated duplicates and stale content. Anyone whose eval suite is producing inconsistent results between runs. **Scope.** The *engineering* practice of data quality for AI: label noise quantification; distribution-drift detection; contamination detection (training data leaked into eval); deduplication; near-duplicate handling; data-quality dashboard. Not the labeling discipline (see [labeling-and-annotation.md](./labeling-and-annotation.md), companion). Not the dataset versioning (see [dataset-versioning.md](./dataset-versioning.md), companion). Not the synthetic data generation (see [synthetic-data-generation.md](./synthetic-data-generation.md) *(coming)*). **Worked client.** Meridian Health.
+> **Audience.** Engineers whose AI model quality is mysteriously degrading and they suspect (correctly) that the data has shifted. Tech leads whose retrieval corpus has accumulated duplicates and stale content. Anyone whose eval suite is producing inconsistent results between runs. **Scope.** The *engineering* practice of data quality for AI: label noise quantification; distribution-drift detection; contamination detection (training data leaked into eval); deduplication; near-duplicate handling; data-quality dashboard. Not the labeling discipline (see [labeling-and-annotation.md](./labeling-and-annotation.md), companion). Not the dataset versioning (see [dataset-versioning.md](./dataset-versioning.md), companion). Not the synthetic data generation (see [synthetic-data-generation.md](./synthetic-data-generation.md)). **Worked client.** Meridian Health.
 
 ---
 
@@ -287,7 +287,7 @@ Each is a path; each can be prevented.
 
 ### 4.6 The engineered separation
 
-Cross-link to [eval-data-contamination-prevention.md](./eval-data-contamination-prevention.md) *(coming)*:
+Cross-link to [eval-data-contamination-prevention.md](./eval-data-contamination-prevention.md):
 
 - Eval cases time-stamped after training cut-off.
 - Eval cases from explicit "eval-only" sources.
@@ -890,8 +890,8 @@ Several incidents per quarter; each meaningful.
 - [labeling-and-annotation.md](./labeling-and-annotation.md) — labels generate noise (companion).
 - [dataset-versioning.md](./dataset-versioning.md) — versioning enables quality history.
 - [retrieval-corpus-engineering.md](./retrieval-corpus-engineering.md) — corpus quality.
-- [synthetic-data-generation.md](./synthetic-data-generation.md) *(coming)* — synthetic data quality.
-- [eval-data-contamination-prevention.md](./eval-data-contamination-prevention.md) *(coming)* — engineered separation.
+- [synthetic-data-generation.md](./synthetic-data-generation.md) — synthetic data quality.
+- [eval-data-contamination-prevention.md](./eval-data-contamination-prevention.md) — engineered separation.
 
 **Elsewhere in this repo.**
 - [observability-and-telemetry/quality-drift-detection.md](../observability-and-telemetry/quality-drift-detection.md) — model quality drift.

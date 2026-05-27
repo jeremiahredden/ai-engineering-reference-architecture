@@ -825,7 +825,7 @@ Both retry pathways multiply; effective retry count is higher than either alone.
 - [fallback-patterns.md](./fallback-patterns.md) — fallback on timeout; cascade with timeout policy.
 - [retry-strategy.md](./retry-strategy.md) — retry decisions after timeout; companion.
 - [circuit-breakers.md](./circuit-breakers.md) — circuit-breaker on repeated timeouts; companion.
-- [degraded-mode-design.md](./degraded-mode-design.md) *(coming)* — degraded mode triggered by timeout.
+- [degraded-mode-design.md](./degraded-mode-design.md) — degraded mode triggered by timeout.
 
 **Elsewhere in this repo.**
 - [agent-engineering/agent-loop-design.md](../agent-engineering/agent-loop-design.md) — agent loop within timeout budget.
